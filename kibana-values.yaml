@@ -1,0 +1,6 @@
+image:
+  repository: "docker.elastic.co/kibana/kibana"
+
+files:
+  kibana.yml:
+    elasticsearch.url: http://elasticsearch-client:9200
